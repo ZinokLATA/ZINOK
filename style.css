@@ -1,0 +1,325 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 0 50px 0 50px;
+}
+/* navbar section  */
+
+#navbarSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+   
+}
+
+#logodiv>h1{
+ font-size: 40px;
+ font-weight: 900;
+
+}
+li{
+list-style: none;
+
+
+}
+
+ul{
+    display: flex;
+     justify-content: space-between;
+   align-items: center;
+    gap: 50px;
+    font-weight: 900;
+}
+#manudiv{
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+#WatchLiveBtn>button{
+display: flex;
+align-items: center;
+background-color: red;
+font-size: 20px;
+color: white;
+border: none;
+gap: 10px;
+padding: 15px 20px ;
+border-radius: 10px;
+}
+
+#WatchLiveBtn>button:hover{
+    background-color: black;
+}
+#WatchLiveBtn>button>img{
+height: 17px;
+
+}
+
+/* banner section  */
+#bannerSection{
+background-repeat: no-repeat;
+block-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px ;
+margin: 0px 50px;
+gap: 10px;
+background-color: black;
+border-radius: 10px;
+}
+#textDIV>h1{
+  color: #FFF;
+
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; 
+}
+
+
+#textDIV>p{
+  color: #FFF;
+
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 36px;
+    }
+
+#textDIV>button{
+display: flex;
+align-items: center;
+padding: 15px 20px;
+background-color: red;
+font-size: 20px;
+color: white;
+border: none;
+border-radius: 10px;
+gap: 12px;
+}
+#bannerimageDiv{
+height: 55vh;
+position: relative;
+top: 50px;
+
+}
+#bannerimageDiv>img{
+height: 500px;
+position: relative;
+top: 10px;
+}
+
+
+
+  /* Group section  */
+  #GcardSection{
+display: grid;
+grid-template-columns: 25% 75%;
+gap: 30px;
+margin: 30px 50px;
+  }
+
+  
+
+  #BTN{
+display: flex;
+flex-direction: column;
+background-color: black;
+width: 350px;
+gap: 10px;
+height: 300px;
+padding: 30px 30px;
+align-items: center;
+border-radius: 15px;
+
+font-weight: 500px;
+  }
+
+  #BTN>button{
+height: 170px;
+width: 300px;
+border-radius: 10px;
+font-size: 21px;
+font-weight: 500px;
+  }
+  
+  #BTN>button:hover{
+
+    color: blue;
+  }
+
+  #MatchcardmainDiv{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-content: space-between;
+align-items: center;
+gap: 110px;
+width: 60px;
+
+  }
+
+
+  #blogbutton{
+background-color: red;
+color: white;
+  }
+  .GMatchcard{
+box-shadow: 10px 10px 10px 10px rgb(241, 237, 237);
+width: 278px;
+  }
+
+  .cardTextdiv{
+padding: 10px 20px;
+
+  }
+
+  .cardTextdiv>button{
+    color: #161616;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+      }
+      .cardTextdiv>button:hover{
+   background-color: pink;
+
+      }
+    .cardTextdiv>p{
+        color: #161616;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+ .imge1>img{  
+height: 20vh;
+ }
+
+ .clockimg{
+display: flex;
+align-items: center;
+gap: 15px;
+ }
+
+ .clockimg>img{
+width: 20px;
+
+ }
+
+ .mesimg{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+ }
+
+ .mesimg>img{
+width: 20px;
+
+ }
+ .hourMaindiv{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+
+ }
+ 
+ /* About section  */
+
+#aboutSection{
+padding: 50px 50px;
+
+}
+
+
+#aboutSection>h1{
+text-align: center;
+font-size: 40px;
+color: rgb(94, 4, 49);
+}
+
+#aboutSection>p{
+  text-align: center;
+  font-size: 25px;
+  font-family: Poppins;
+  padding: 40px 50px;
+  background-color: rgba(255, 217, 0, 0.473);
+ 
+}
+
+#Fimge{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 90px;
+  gap: 15px;
+}
+
+#textDIV{
+
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+ /* footer section  */
+
+ #footerSection{
+background-color: black;
+color: white;
+text-align: center;
+padding: 70px 40px;
+ }
+
+ #footerSection>h1{
+  color: #FFF;
+font-size: 40px;
+ height: 25px; 
+margin-top: 10px;
+padding: 40px;
+ }
+
+ #footerManu{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+
+padding: 90px 40px;
+
+ }
+
+ #footerSection>li{
+font-size: 20px;
+font-weight: 600;
+width: 200px;
+text-align: center;
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
