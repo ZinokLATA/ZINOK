@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-padding: 0 50px 0 50px;
+
 }
 /* navbar section  */
 
@@ -104,17 +104,13 @@ border: none;
 border-radius: 10px;
 gap: 12px;
 }
-#bannerimageDiv{
-height: 55vh;
+#bannerimageDiv>img{
+height: 500px;
 position: relative;
 top: 50px;
 
 }
-#bannerimageDiv>img{
-height: 500px;
-position: relative;
-top: 10px;
-}
+
 
 
 
@@ -122,7 +118,7 @@ top: 10px;
   #GcardSection{
 display: grid;
 grid-template-columns: 25% 75%;
-gap: 30px;
+gap: 90px;
 margin: 30px 50px;
   }
 
@@ -132,7 +128,7 @@ margin: 30px 50px;
 display: flex;
 flex-direction: column;
 background-color: black;
-width: 350px;
+width: 300px;
 gap: 10px;
 height: 300px;
 padding: 30px 30px;
@@ -160,7 +156,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 justify-content: space-between;
 align-items: center;
-gap: 110px;
+gap: 30px;
 width: 60px;
 
   }
@@ -172,7 +168,7 @@ color: white;
   }
   .GMatchcard{
 box-shadow: 10px 10px 10px 10px rgb(241, 237, 237);
-width: 278px;
+width: 260px;
   }
 
   .cardTextdiv{
@@ -200,7 +196,7 @@ line-height: normal;
         line-height: normal;
     }
  .imge1>img{  
-height: 20vh;
+width: 100%;
  }
 
  .clockimg{
